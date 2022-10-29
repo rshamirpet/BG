@@ -1,0 +1,43 @@
+/* Navbar start */
+nav.navbar{
+    position: fixed;
+    overflow: hidden;
+    top:0;
+    width:100%;
+}
+nav.style{
+    background-color: rgb(60, 60, 62);
+    border-bottom: 1px solid white;
+    border-top: 1px solid white;
+}
+.navbar a{
+    color:white;
+}
+nav .navbar-nav li a:hover{
+    color: yellow;
+}
+.navbar a.navbar-brand:hover{
+    color:white;
+}
+nav .navbar-brand,
+nav .navbar-nav{
+    font-size: 20px;
+}
+.navbar-nav li{
+    margin-left: 1rem;
+}
+/* Navbar end */
+
+/* Output start */
+#sloka{
+    margin-top: 3.5rem;
+    padding: 5rem;
+}
+.image img{
+    width:100%;
+    height:auto;
+}
+.output p{
+    font-size: large;
+    font-weight: bold;
+}
